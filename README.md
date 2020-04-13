@@ -2,30 +2,19 @@
 
 If you want to stream data from twitter to use it for further analysis you can do in this way. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### Setup
 
-
+You have to indentify yourself with your credentials of your twitter developer account.
+Save the credentials in the [twitter_credential.py](https://github.com/Databackbone/twitter_streamer/blob/master/twitter_credentials.py) then you are good to got:)
 
 ```markdown
-Syntax highlighted code block
+#variables tha contain the user credentials to access twitter API
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+ACCESS_TOKEN = ''
+ACCESS_TOKEN_SECRET = ''
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
+Have fun and let me know what cool stuff you have done!!!
 
